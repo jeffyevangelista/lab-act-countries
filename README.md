@@ -19,7 +19,7 @@ You'll see the Home page rendered inside the Layout. Clicking any nav link (`Cou
 - `App.jsx` — renders `<Layout><HomePage /></Layout>` (no route table)
 - `Layout.jsx` — accepts `{ children }`; nav uses `<a href>` (full reloads)
 - Pages — `HomePage`, `CountriesPage`, `BucketListPage`, `AboutPage`, `NotFoundPage` all exist with full content
-- `NotFoundPage` — styled 404 with two intentional JSX bugs for you to fix
+- `NotFoundPage` — styled 404 with three intentional JSX bugs for you to fix
 
 ## Stack
 
@@ -36,6 +36,6 @@ You'll see the Home page rendered inside the Layout. Clicking any nav link (`Cou
 - Refactor `Layout` to a layout route with `<Outlet />`
 - Convert `<a href>` → `<Link>` for client-side navigation
 - Add a catch-all `path="*"` for the 404 page
-- Fix the two JSX bugs in `NotFoundPage`
+- Fix the three JSX bugs in `NotFoundPage`
 
 See `Lab Activity 07_ Countries of the World with React Router.md` for the full task list.
